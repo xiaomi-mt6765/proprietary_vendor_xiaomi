@@ -17,7 +17,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/lib/libgraphics2d_ext.so:system/lib/libgraphics2d_ext.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so
+    vendor/xiaomi/mt6765-common/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libmtk-ril.so:system/lib/libmtk-ril.so
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/lib/vndk-26/android.frameworks.displayservice@1.0.so:system/lib/vndk-26/android.frameworks.displayservice@1.0.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/vndk-26/android.frameworks.schedulerservice@1.0.so:system/lib/vndk-26/android.frameworks.schedulerservice@1.0.so \
