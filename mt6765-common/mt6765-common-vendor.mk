@@ -19,9 +19,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/xiaomi/mt6765-common/proprietary/lib/libgraphics2d_ext.so:system/lib/libgraphics2d_ext.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libradio.so:system/lib/libradio.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libradioservice.so:system/lib/libradioservice.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib64/libmtk-ril.so:system/lib64/libmtk-ril.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib64/librilfusion.so:system/lib64/librilfusion.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libmtk-ril.so:system/lib/libmtk-ril.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libshowlogo:system/lib/libshowlogo.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so
+    vendor/xiaomi/mt6765-common/proprietary/lib/librilfusion.so:system/lib/librilfusion.so
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/lib/vndk-26/android.frameworks.displayservice@1.0.so:system/lib/vndk-26/android.frameworks.displayservice@1.0.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/vndk-26/android.frameworks.schedulerservice@1.0.so:system/lib/vndk-26/android.frameworks.schedulerservice@1.0.so \
