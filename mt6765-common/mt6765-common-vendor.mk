@@ -17,6 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
+    vendor/xiaomi/mt6765-common/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/xiaomi/mt6765-common/proprietary/lib/libgraphics2d_ext.so:system/lib/libgraphics2d_ext.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libradio.so:system/lib/libradio.so \
