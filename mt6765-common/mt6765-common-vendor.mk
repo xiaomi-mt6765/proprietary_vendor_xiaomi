@@ -1,5 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,11 +19,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/xiaomi/mt6765-common/proprietary/lib/libgraphics2d_ext.so:system/lib/libgraphics2d_ext.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libradio.so:system/lib/libradio.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libradioservice.so:system/lib/libradioservice.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib64/libmtk-ril.so:system/lib64/libmtk-ril.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib64/librilfusion.so:system/lib64/librilfusion.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libmtk-ril.so:system/lib/libmtk-ril.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/librilfusion.so:system/lib/librilfusion.so
+    vendor/xiaomi/mt6765-common/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so
