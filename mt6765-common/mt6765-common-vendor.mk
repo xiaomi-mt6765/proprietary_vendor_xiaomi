@@ -18,5 +18,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/xiaomi/mt6765-common/proprietary/bin/netd:system/bin/netd \
     vendor/xiaomi/mt6765-common/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaaudio.so:system/lib/libaaudio.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaaudioservice.so:system/lib/libaaudioservice.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudio_param_parser-sys.so:system/lib/libaudio_param_parser-sys.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudioclient.so:system/lib/libaudioclient.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiomanager.so:system/lib/libaudiomanager.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicycustomextensions.so:system/lib/libaudiopolicycustomextensions.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicyservice.so:system/lib/libaudiopolicyservice.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudioprocessing.so:system/lib/libaudioprocessing.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiotoolkit.so:system/lib/libaudiotoolkit.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so
