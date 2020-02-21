@@ -19,26 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
-    vendor/xiaomi/mt6765-common/proprietary/bin/netd:$(TARGET_COPY_OUT_SYSTEM)/bin/netd \
     vendor/xiaomi/mt6765-common/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaaudio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaaudio.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaaudioservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaaudioservice.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudio_param_parser-sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio_param_parser-sys.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudioclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioclient.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiocomponentengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiocomponentengine.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiocustparam.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiocustparam.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudioflinger.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioflinger.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiomanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiomanager.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicycustomextensions.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicycustomextensions.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicyenginedefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicyenginedefault.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicymanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicymanager.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicymanagerdefault.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicymanagerdefault.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiopolicyservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiopolicyservice.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudioprocessing.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioprocessing.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudiotoolkit.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libaudioutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioutils.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libbessound_hd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbessound_hd_mtk.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libmtkaudio_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkaudio_utils.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
-    vendor/xiaomi/mt6765-common/proprietary/lib/libsoundtriggerservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsoundtriggerservice.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so
