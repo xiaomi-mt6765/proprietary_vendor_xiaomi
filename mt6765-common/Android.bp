@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2019-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,5 +17,58 @@
  */
 
 soong_namespace {
+}
+
+android_app_import {
+	name: "ImsService",
+	owner: "xiaomi",
+	apk: "proprietary/priv-app/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+dex_import {
+	name: "mediatek-common",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-framework.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-base",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-ims-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-common",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-ims-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telecom-common",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-base",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-telephony-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-common",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
 }
 
