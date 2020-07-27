@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/xiaomi/mt6765-common/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/xiaomi/mt6765-common/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
+    vendor/xiaomi/mt6765-common/proprietary/etc/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml \
     vendor/xiaomi/mt6765-common/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
     vendor/xiaomi/mt6765-common/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
     vendor/xiaomi/mt6765-common/proprietary/framework/mediatek-ims-wwop-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-wwop-common.jar \
@@ -45,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
+    vendor/xiaomi/mt6765-common/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/mt6765-common/proprietary/product/vendor_overlay/28/lib/libpdx_default_transport.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/28/lib/libpdx_default_transport.so \
     vendor/xiaomi/mt6765-common/proprietary/product/vendor_overlay/28/lib/libmtk-ril.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/28/lib/libmtk-ril.so
 
