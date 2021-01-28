@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6765-common/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/xiaomi/mt6765-common/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/xiaomi/mt6765-common/proprietary/etc/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml \
+    vendor/xiaomi/mt6765-common/proprietary/etc/permissions/com.mediatek.ims.plugin.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.mediatek.ims.plugin.xml \
+    vendor/xiaomi/mt6765-common/proprietary/etc/permissions/com.mediatek.op.ims.common.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.mediatek.op.ims.common.xml \
     vendor/xiaomi/mt6765-common/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/xiaomi/mt6765-common/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
     vendor/xiaomi/mt6765-common/proprietary/product/vendor_overlay/28/lib/libpdx_default_transport.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/28/lib/libpdx_default_transport.so \
